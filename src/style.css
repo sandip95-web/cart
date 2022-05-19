@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa:wght@300&family=Grape+Nuts&family=Open+Sans:wght@300&family=Raleway:ital,wght@0,300;1,500&display=swap');
+
+*{
+    font-family:'Comfortaa', cursive;;
+}
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-card{
+    margin:1rem auto;
+   
+}
+.main-detail{
+    display: flex;
+  
+}
+.sub-detail{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.image{
+    width: 30%;
+}
+.image img{
+    width: 70%;
+}
+.card-info{
+    inline-size: 150px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}   
+.nav-check:hover{ 
+ background-color: white;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.main-show{
+    display: flex;
+}
+.main-info{
+    margin-left: 1rem;
+}
+.total{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.show-detail{
+    display: flex;
+    width: 50%;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+.del button{
+    font-size: 1.5rem;
+}
+.del button:hover{
+    animation:start 1s ease forwards;
+}
+@keyframes start {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.main-s{
+    display: flex;
+}
